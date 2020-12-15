@@ -1,4 +1,4 @@
-var currentImage = "images/summer.jpg";
+var currentImage = "/images/summer.jpg";
 var rand = 3500;
 var randomTimeout = setTimeout(changeBG, rand);
 var isLoop = false;
