@@ -1,0 +1,113 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.fullscreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  background: black; /* Just to visualize the extent */
+  
+}
+
+
+
+img {
+    min-width:100%;
+/*    max-height: 100%;*/
+    min-height: 100%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:cover;
+}
+
+.hyperlink {
+    border-style: solid;
+    border-width: 15px;
+    border-color: #696B7C;
+    background-color: #FEF7C8;
+    position: absolute;
+    width: 70%;
+    height: 22.5%;
+    border-radius: 125px;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.popup {
+    border-style: solid;
+    border-width: 15px;
+    border-color: #696B7C;
+    background-color: #FEF7C8;
+    position: absolute;
+    width: 70%;
+    height: 22.5%;
+    border-radius: 125px;
+    opacity: 0.85;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#title{
+    font-family: 'Milonga', 'regular';
+    font-size: 514%;
+    text-align: center;
+    color: #F8CE91;
+/*    margin: auto;*/
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#subtext{
+    font-family: 'Mrs Sheppards', 'regular';
+    font-size: 350%;
+    text-align: center;
+    color: #B27878;
+/*    margin: 0;*/
+    position: relative;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#textbox{
+    font-family: 'Milonga', 'regular';
+    font-size:600%;
+    text-align: center;
+    color: #F8CE91;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+red B27878
+brown 696B7C
+coral F18485
+orange F8CE91
+yellow FEF7C8
+*/
