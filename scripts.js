@@ -49,10 +49,6 @@ function winner(){
         title.innerHTML = "YOU WIN!";
         openNext();
         subtext.innerHTML = "Next clue in 5"
-        //window.open("https://www.w3schools.com");
-    //    textbox.style.visibility = "visible";
-//        hyperlink.style.visibility = "hidden";
-        //alert("WINNER!"); 
 };
 
 function loser(){
@@ -67,7 +63,7 @@ function openNext(){
     var downloadTimer = setInterval(function(){
           if(timeleft === 0){
             clearInterval(downloadTimer);
-            window.open("https://bit.ly/electionhangman", "_self", false);
+            window.open("https://bit.ly/3h8IBm7", "_self", false);
           }
       subtext.innerHTML = "Next clue in " + timeleft;
       timeleft -= 1;
